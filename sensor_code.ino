@@ -57,7 +57,7 @@ void loop() {
     // Used to reset flag variable (this is for if a hand is still
     // in the system after the spray went off for 5 seconds)
     if (flag == 1 && a > 6) {
-        Serial.println("Flag is reset");
+        Serial.println("Flag is reset, hand was removed"");
         flag = 0;
     }
 
